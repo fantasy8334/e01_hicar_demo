@@ -1,0 +1,15 @@
+name: hicar_e01_demo
+description: E01 (Android 5.1) HiCar car head-unit demo - study only.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 无第三方插件：BLE/WiFi/TCP/MediaCodec 全部走 Android 原生通道
+
+flutter:
+  uses-material-design: true
